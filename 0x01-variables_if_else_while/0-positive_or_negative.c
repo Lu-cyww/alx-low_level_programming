@@ -2,8 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 
-/* main - declares the number is positive, zero or negative */
-/*description - Return: 0 */
+/**
+*  main - my main function
+* description - return 0 if successful
+*/
 
 int main(void)
 {
