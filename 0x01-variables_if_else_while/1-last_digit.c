@@ -8,7 +8,7 @@
  * Return: 0 if success
  */
 
-int LastNum(void)
+int main_LastNum(void)
 {
 	int n;
 
