@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * LastNum -this is my function
+ * main -this is my function
  * Description: determines the value of the last digit
  * Return: 0 if success
  */
