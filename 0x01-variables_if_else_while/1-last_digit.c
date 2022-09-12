@@ -12,8 +12,6 @@ int main(void)
 {
 	int n, lastDigit;
 
-	lastDigit = n % 10;
-
 	printf(" \n The Last Digit of n %d =  %d", n, lastDigit);
 
 	srand(time(0));
