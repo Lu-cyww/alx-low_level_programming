@@ -20,10 +20,6 @@ int main(void)
 			continue;
 
 		putchar(',');
-
-		if (num1 < 10)
-			continue;
-
 		putchar(' ');
 
 	}
