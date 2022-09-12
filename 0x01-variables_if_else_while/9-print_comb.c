@@ -20,7 +20,9 @@ int main(void)
 			continue;
 
 		putchar(',');
-		putchar(' ');
+
+		for (num1 = 0; num1 < 10; num1++)
+			putchar(' ');
 
 	}
 
