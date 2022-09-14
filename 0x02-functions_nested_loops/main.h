@@ -1,12 +1,9 @@
-#include <stdio.h>
+_putchar
 
-void print_alphabet_x10(void)
-{
-	return;
-}
+void print_alphabet(void);
 
-int main(void)
-{
-	print_alphabet_x10();
-        return (0);
-}
+int _islower(int c);
+
+int _isalpha(int c);
+
+int print_sign(int n);

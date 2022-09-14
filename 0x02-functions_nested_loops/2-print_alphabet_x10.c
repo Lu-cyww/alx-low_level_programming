@@ -1,5 +1,3 @@
-#define _putchar
-#define print_alphabet_x10
 #include "main.h"
 
 /**
