@@ -1,1 +1,1 @@
-prints the alphabet in lower case
+10 x alphabet
