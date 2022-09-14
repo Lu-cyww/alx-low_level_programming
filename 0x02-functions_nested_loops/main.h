@@ -1,4 +1,7 @@
-_putchar
+#include <stdlib.h>
+#include <stdio.h>
+
+int _putchar(void);
 
 void print_alphabet_x10(void);
 
