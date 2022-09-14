@@ -1,14 +1,15 @@
-#include <main.h>
+#include "main.h"
+#include <stdio.h>
 
 /**
  * main - this is my main function
  * description: prints -putchar
- * return: 0 when success
+ * Return: 0 if success
  */
 
-int main(void);
+int main(void)
 {
-	printf("-putchar\n")
+	printf("_putchar");
 
 	return (0);
 }
