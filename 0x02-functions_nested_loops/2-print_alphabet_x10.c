@@ -1,3 +1,4 @@
+#define print_alphabet_x10
 #define _putchar
 #include "main.h"
 
