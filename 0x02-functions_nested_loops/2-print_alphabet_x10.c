@@ -1,3 +1,4 @@
+#define _putchar
 #include "main.h"
 
 /**
