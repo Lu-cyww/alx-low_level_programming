@@ -2,12 +2,14 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10 - this is my function
+ * main - this is my function
  * description: prints the alphabet in lowercase
  * Return: 0 when succes
  */
 
-void print_alphabet_x10(void)
+void print_alphabet_x10(void);
+
+int main(void)
 {
 	int Z, N;
 
