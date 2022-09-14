@@ -1,11 +1,10 @@
-#define print_alphabet_x10
 #define _putchar
 #include "main.h"
 
 /**
  * main - this is my main function
  * description: prints the alphabet in lowercase
- * Return: o always success
+ * Return: 0 when succes
  */
 
 void print_alphabet_x10(void);
