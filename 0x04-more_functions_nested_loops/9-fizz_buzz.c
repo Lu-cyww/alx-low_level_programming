@@ -33,10 +33,10 @@ for (j = 1; j <= 100; j++)
 	{
 		printf("%d", j);
 	}
-	}
-	printf("\n");
+}
+printf("\n");
 
-	return (0);
+return (0);
 }
 
 
