@@ -21,17 +21,17 @@ int main(void)
 			{
 				printf("Buzz");
 			}
-		else if (j % 3 == 0 && i % 5 == 0)
+		else if (j % 3 == 0 && j % 5 == 0)
 		{
 			printf("FizzBuzz");
 		}
 		else if (j == 1)
 		{
-			printf("%d", i);
+			printf("%d", j);
 		}
 		else
 		{
-			printf("%d", i);
+			printf("%d", j);
 		}
 	}
 
