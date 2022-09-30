@@ -1,0 +1,44 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <ctype.h>
+#include "main.h"
+
+/**
+ * main - my main function
+ * @argc: Counts argument
+ * @argv: argument
+ * Return: 1 if a non-integer is passed and 0 if otherwise
+ */
+
+int main(int argc, char *argv[])
+{
+	int j, k len, sum;
+	char *otr;
+
+	if (argc < 2)
+		printf("0\n");
+	else
+	{
+		sum = 0;
+		for (j = 1; j < argc; j++)
+		{
+			ptr = argv[j];
+			len = strlen(ptr);
+
+			for (k = 0; k < len; k++)
+			{
+				if (isdigit(*(ptr + k)) == 0)
+				{
+					printf("Error\n");
+					return (1);
+				}
+			}
+
+			sum += atoi(argv[j]);
+		}
+
+		printf("%d\n", sum);
+	}
+	return (0);
+}
