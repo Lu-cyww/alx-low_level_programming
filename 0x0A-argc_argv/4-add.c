@@ -13,8 +13,8 @@
 
 int main(int argc, char *argv[])
 {
-	int j, k len, sum;
-	char *otr;
+	int j, k, length, sum;
+	char *ptr;
 
 	if (argc < 2)
 		printf("0\n");
@@ -24,9 +24,9 @@ int main(int argc, char *argv[])
 		for (j = 1; j < argc; j++)
 		{
 			ptr = argv[j];
-			len = strlen(ptr);
+			length = strlen(ptr);
 
-			for (k = 0; k < len; k++)
+			for (k = 0; k < length; k++)
 			{
 				if (isdigit(*(ptr + k)) == 0)
 				{
